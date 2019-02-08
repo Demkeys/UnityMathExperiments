@@ -1,4 +1,4 @@
-### Lissajous Curve ###
+## Lissajous Curve ##
 This script is meant to be used in the Unity Game Engine. This script calculates the position of this gameobject based on a Lissajous Curve formula. You can change the values for the various parameters of the formula to customize the curve. The gameobject should have a Trail Renderer attached to it, so that the trail shows the curve.
 Read up on Lissajous Curve on Wikipedia to understand the formula, and to also understand the various ways you can control the curve.
 Link: https://en.wikipedia.org/wiki/Lissajous_curve

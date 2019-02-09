@@ -12,6 +12,9 @@ Instructions:
   * Time = 1000 (Just to keep the trail alive for a long time)
   * Width = 0.02 (or something similar so the trail isn't too wide)
 * Attach LissajousCurve.cs script to the gameobject and set whatever parameters you want. There are also checkboxes allowing you to make certain parameters random.
+* Drag and drop the attached Trail Renderer component into the TR field of the 'LissajousCurve.cs' script.
+* Disable the Trail Renderer component because the script will enable it when needed.
+* Set values for A, B, C, D, Delta, TimeMultiplier and Multiplier. Alternatively you can leave them at default, or generate them randomly by clicking the relevant checkboxes.
 * Once you're done setting values, enter Play Mode.
 
 _NOTE: Each time you wanna change values, exit Play Mode. If you change the values during Play Mode, the design of whatever pattern is currently being drawn will get messed up._
